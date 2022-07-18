@@ -1,0 +1,35 @@
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+.header-logo {
+  padding-top: 5px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  background-color: #000;
+  color: #fff;
+  font-family: "Brush Script MT", sans-serif;
+}
+.header-nav {
+  display: flex;
+  color: #fff;
+  background-color: #222; /* #222 背景色 */
+  justify-content: flex-end;
+  padding-right: 30px;
+  height: 60px;
+}
+.header-nav ul {
+  /* 子要素を横並びに */
+  display: flex;
+  padding: 20px 0;
+  list-style: none;
+  font-family: "PT Mono", sans-serif;
+}
+.header-nav li {
+  margin-top: -12px;
+  margin-left: 55px;
+  font-size: 15px;
+}
